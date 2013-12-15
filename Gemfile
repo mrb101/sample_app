@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby '2.0.0'
 
 gem 'rails', '4.0.1.rc3'
 gem 'bootstrap-sass'
@@ -9,6 +10,8 @@ gem 'bootstrap-will_paginate'
 gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'jquery-rails'
+gem 'rails_12factor'
+
 
 group :development, :test do
 	gem 'sqlite3'
